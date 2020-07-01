@@ -1,0 +1,26 @@
+{
+    "name": "fantasyuknow\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fantasyuknow",
+            "email": "1032744691@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shenguowei\\Weather\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fantasyuknow\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
